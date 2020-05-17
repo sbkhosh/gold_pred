@@ -1,10 +1,9 @@
 #!/usr/bin/python3
 
-import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 
-from datetime import datetime, timedelta
+from datetime import timedelta
 from dt_help import Helper
 from pycaret.regression import *
 
@@ -118,6 +117,3 @@ class MLPrediction():
                                               (1+predicted_values['return_'+self.yvar+'_21D'])).round(decimals=2)
         predicted_values['Dates_T+21D'] = predicted_values['Dates']+timedelta(days=21)
         self.predicted_values = predicted_values
-
-        
-        

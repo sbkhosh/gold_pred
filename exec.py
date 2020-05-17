@@ -1,23 +1,10 @@
 #!/usr/bin/python3
 
-import csv
 import matplotlib
-import matplotlib.dates as mdates
-import matplotlib.pyplot as plt
-import os
-import pandas as pd 
-import warnings
-import yaml
-import csv
-import matplotlib
-import matplotlib.dates as mdates
-import matplotlib.pyplot as plt
-import os
 import pandas as pd 
 import warnings
 import yaml
 
-from datetime import datetime, timedelta
 from dt_help import Helper
 from dt_read import DataProcessor
 from dt_model import MLPrediction
