@@ -1,0 +1,17 @@
+Ticker,Description
+GC=F,Gold
+SI=F,Silver
+CL=F,Crude Oil
+^GSPC,S&P500
+^RUT,Russel 2000 Index
+ZN=F,10 Yr US T-Note futures
+ZT=F,2 Yr US T-Note Futures
+PL=F,Platinum
+HG=F,Copper
+DX=F,Dollar Index
+^VIX,Volatility Index
+S=F,Soybean
+EEM,MSCI EM ETF
+EURUSD=X,Euro USD
+^N100,Euronext100
+^IXIC,Nasdaq
